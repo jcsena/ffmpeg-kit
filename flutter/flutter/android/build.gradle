@@ -52,4 +52,5 @@ android {
 
 dependencies {
     implementation 'androidx.annotation:annotation:1.5.0'
+    implementation(name: 'ffmpeg-kit', ext: 'aar')
 }
