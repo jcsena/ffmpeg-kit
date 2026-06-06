@@ -1,3 +1,9 @@
+## 6.0.4
+- Adds Swift Package Manager (SPM) support for iOS via `ios/Package.swift`
+- iOS deployment target elevated to 15.0 (aligns with modern Flutter requirements)
+- Only the `https` variant is supported via SPM (vendored xcframeworks)
+- CocoaPods podspec retained as fallback for projects not yet on SPM
+
 ## 6.0.3
 - Bug fix release based on native v6.0
 - Fixes issue 825
